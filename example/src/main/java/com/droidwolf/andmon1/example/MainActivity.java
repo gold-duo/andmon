@@ -19,14 +19,7 @@ package com.droidwolf.andmon1.example;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-
-import java.io.BufferedReader;
-import java.io.Closeable;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
 
 
 public class MainActivity extends Activity implements View.OnClickListener {
@@ -41,31 +34,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-//        read();
         startService(new Intent(this, MyService.class));
-    }
-
-    private void read() {
-        BufferedReader bufferReader = null;
-        try {
-            bufferReader = new BufferedReader(new InputStreamReader(new FileInputStream("/system/build.prop")));
-            String line = null;
-            while ((line = bufferReader.readLine()) != null) {
-                Log.d("droidwolf", line);
-            }
-        } catch (IOException e) {
-
-        } finally {
-            safeClose(bufferReader);
-        }
-    }
-
-    public static void safeClose(Closeable closeable) {
-        if (closeable != null) {
-            try {
-                closeable.close();
-            } catch (IOException e) {
-            }
-        }
     }
 }
