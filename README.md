@@ -24,8 +24,9 @@ uninstall feedback([NativeSubprocess](https://github.com/droidwolf/NativeSubproc
 
 ***NativeSubprocess是对linux原生进程的抽象封装，当初的目的是方便android java层实现其他业务逻辑。
 由于示例用WatchDog导致一些人经常来问相关问题，没有google GCD的日子苦逼了广大的程序员哩。
-NatvieSubprocess示例已经是几年前的技术，这种牛虻技术始终会面临厂商的扼杀滴。
-当然你们研究出新的方案麻烦告诉我^_^，欢迎加*** **技术Q群 122699113**
+NatvieSubprocess示例已经是几年前的技术，这种牛虻技术始终会面临厂商的扼杀滴。***
+
+当然你们研究出新的方案麻烦告诉我^_^，欢迎加 **技术Q群 122699113**
 
 **使用方法**
 
