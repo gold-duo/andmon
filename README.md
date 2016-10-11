@@ -1,3 +1,5 @@
+#  DEPRECATED
+
 **libandmon** A Linux native program. 
 
 **Function** process monitor([NativeSubprocess](https://github.com/droidwolf/NativeSubprocess "NativeSubprocess")
@@ -15,6 +17,7 @@ uninstall feedback([NativeSubprocess](https://github.com/droidwolf/NativeSubproc
 2. call libandmon.start menthod
 
 --------
+#  不再更新
 **libandmon** 一个你(niu)们(meng)喜欢的linux原生程序. 
 
 **功能** 进程监控([NativeSubprocess](https://github.com/droidwolf/NativeSubprocess "NativeSubprocess")。
